@@ -76,8 +76,43 @@
 	margin-left: 10px;
 
 }	
-		
-		
+		#slider{
+			overflow: hidden;
+		}
+		#slider figure{
+			position: relative;
+			width: 600%;
+			margin: 0;
+			left: 0;
+			animation: 20s slider infinite;
+		}
+		#slider img{
+			height: 9%;
+			width: 9%;
+		}
+		@keyframes slider{
+			0%{left: 0;}
+			75%{left: -325%;}
+		}
+		#subtitles{
+			height: 1000px;
+			width: 2000px;
+			background-color: #FFCBA4;
+			position: absolute;
+			bottom: 1%;
+			left: 25%;
+		}
+		#subtitles h1{
+			font-size: 100px;
+			text-align: center
+		}
+		#subtitles h3{
+			font-size: 75px;
+			text-align: center;
+		}
+		#words{
+			margin-top: 250px;
+		}
 	</style>
 </head>
 <body>
@@ -146,10 +181,24 @@
 
 
 			<!--- This is our banner and the coder for banner is Piyush--->
-
-
-
-
+			<div id="slider">
+				<figure>
+					<img src="/Users/sowmyan5585/Desktop/Coding/Latest_Html_files/Movie-review-project-main/images/tom-cruise.jpeg">
+					<img src="robert.jpeg">
+					<img src="/Users/sowmyan5585/Desktop/Coding/Latest_Html_files/Movie-review-project-main/images/puneeth.jpeg">
+					<img src="/Users/sowmyan5585/Desktop/Coding/Latest_Html_files/Movie-review-project-main/images/yash.webp">
+					<img src="/Users/sowmyan5585/Desktop/Coding/Latest_Html_files/Movie-review-project-main/images/chris.webp">
+					<img src="/Users/sowmyan5585/Desktop/Coding/Latest_Html_files/Movie-review-project-main/images/jeremy.jpeg">
+					<img src="robert.jpeg">
+					<img src="/Users/sowmyan5585/Desktop/Coding/Latest_Html_files/Movie-review-project-main/images/tom-cruise.jpeg">
+				</figure>
+				<div id="subtitles">
+				<div id="words">
+					<h1>Famous Actors Across The World</h1>
+					<h3>The actors (in order) Tom Cruise, Robert Downey Jr., Puneeth Kumar, Yash, Chris Hemsworth, and Jeremy Renner.</h3>
+					</div>
+				</div>
+				</div>
 			<!--- End of This is our banner and the coder for banner is Piyush--->
 			
 
