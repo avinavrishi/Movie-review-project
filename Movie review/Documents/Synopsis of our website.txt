@@ -1,0 +1,23 @@
+Project name - Movie Review
+Team name - Cloud 9
+Contributors - Piyush, Navya, Jayvant, Avinav
+
+Technology -
+ 
+FrontEnd-
+HTML 5, CSS 3, Javascript
+
+BackEnd-
+Python Django development
+
+Database-
+PostgreSQL
+
+Theme of our website- Black & Red, Black & dark blue,
+
+Description:
+We are Cloud 9 and we are working on Movie review website.
+
+
+
+

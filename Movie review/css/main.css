@@ -1,0 +1,105 @@
+	.navigation{
+		background-color:orangered;
+		}
+	.navigation img{
+
+    height: 45px;
+    width: 50px;
+	}
+	#heading{
+		font-size: 50px;
+		color: yellow;
+	}
+	.navigation ul {
+	display: inline-flex;
+	list-style-type: none;
+	}
+	.navigation li {
+		margin-left: 100px;
+	}
+	a{
+		text-decoration: none;
+		color:floralwhite;
+	}
+	body {
+  		margin: 0;
+		font-family: Arial, Helvetica, sans-serif;
+		background-color: lightblue;
+	}
+
+  .nav{
+	overflow: hidden;
+	}
+.nav a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+.nav1 a:hover {
+  background-color: green;
+  color: white;
+}
+
+.nav1{
+  overflow: hidden;
+  margin-left: 400px;
+}
+
+.nav1 a {
+  float: right;
+  color: black;
+  text-align: center;
+  padding: 14px;
+  font-size: 17px;
+  text-decoration: none;
+}
+.button1{
+	background-color: lightgreen;
+	height: 25px;
+}
+.hi{
+	margin-right: 100px;
+	margin-left: 10px;
+
+}	
+				#slider{
+					overflow: hidden;
+				}
+				#slider figure{
+					position: relative;
+					width: 600%;
+					margin: 0;
+					left: 0;
+					animation: 20s slider infinite;
+				}
+				#slider img{
+					height: 9%;
+					width: 9%;
+				}
+				@keyframes slider{
+					0%{left: 0;}
+					75%{left: -325%;}
+				}
+				#subtitles{
+					height: 1000px;
+					width: 2000px;
+					background-color: #FFCBA4;
+					position: absolute;
+					bottom: 1%;
+					left: 25%;
+				}
+				#subtitles h1{
+					font-size: 100px;
+					text-align: center
+				}
+				#subtitles h3{
+					font-size: 75px;
+					text-align: center;
+				}
+				#words{
+					margin-top: 250px;
+				}
