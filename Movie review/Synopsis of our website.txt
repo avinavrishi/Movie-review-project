@@ -13,10 +13,9 @@ Python Django development
 Database-
 PostgreSQL
 
-Theme of our website- Black & Red, Black & dark blue,
-
+Theme of our website- red,white and yellow
 Description:
-We are Cloud 9 and we are working on Movie review website.
+We are Popcorn eaters and we are working on Movie review website.
 
 
 
