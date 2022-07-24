@@ -27,45 +27,45 @@
 		background-color: lightblue;
 	}
 
-  .nav{
-	overflow: hidden;
+	  .nav{
+		overflow: hidden;
+		}
+	.nav a {
+	  float: right;
+	  color: black;
+	  text-align: center;
+	  padding: 14px;
+	  font-size: 17px;
+	  text-decoration: none;
 	}
-.nav a {
-  float: right;
-  color: black;
-  text-align: center;
-  padding: 14px;
-  font-size: 17px;
-  text-decoration: none;
-}
 
-.nav1 a:hover {
-  background-color: green;
-  color: white;
-}
+	.nav1 a:hover {
+	  background-color: green;
+	  color: white;
+	}
 
-.nav1{
-  overflow: hidden;
-  margin-left: 400px;
-}
+	.nav1{
+	  overflow: hidden;
+	  margin-left: 400px;
+	}
 
-.nav1 a {
-  float: right;
-  color: black;
-  text-align: center;
-  padding: 14px;
-  font-size: 17px;
-  text-decoration: none;
-}
-.button1{
-	background-color: lightgreen;
-	height: 25px;
-}
-.hi{
-	margin-right: 100px;
-	margin-left: 10px;
+	.nav1 a {
+	  float: right;
+	  color: black;
+	  text-align: center;
+	  padding: 14px;
+	  font-size: 17px;
+	  text-decoration: none;
+	}
+	.button1{
+		background-color: lightgreen;
+		height: 25px;
+	}
+	.hi{
+		margin-right: 100px;
+		margin-left: 10px;
 
-}	
+	}	
 				#slider{
 					overflow: hidden;
 				}
