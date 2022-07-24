@@ -85,12 +85,12 @@
 					75%{left: -325%;}
 				}
 				#subtitles{
-					height: 1000px;
-					width: 2000px;
-					background-color: #FFCBA4;
-					position: absolute;
-					bottom: 1%;
-					left: 25%;
+				height: 1000px;
+				width: 2000px;
+				background-color: #FFCBA4;
+				position: absolute;
+				bottom: 25%;
+				left: 25%;
 				}
 				#subtitles h1{
 					font-size: 100px;
