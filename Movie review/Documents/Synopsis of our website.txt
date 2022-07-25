@@ -1,5 +1,5 @@
 Project name - Movie Review
-Team name - Cloud 9
+Team name - PopCOrn eAtErS
 Contributors - Piyush, Navya, Jayvant, Avinav
 
 Technology -
@@ -16,7 +16,7 @@ PostgreSQL
 Theme of our website- Black & Red, Black & dark blue,
 
 Description:
-We are Cloud 9 and we are working on Movie review website.
+We like to eat popcorn and we bet you do too, and the best time to eat popcorn is while watching a movie! So before you step into the cinema look at this webiste to see which movie is best for you!
 
 
 
