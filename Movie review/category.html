@@ -4,32 +4,129 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Category</title>
-<style type="text/css">
+<style>
+/*Start of Piyush CSS*/
+h1{
+	font-family: sans-serif;
+	color: gold;
+}
+.sandalwood{
+border-style: hidden;
+display: inline-flex;
+}
+.tollywood{
+	border-style: hidden;
+	display: inline-flex;
+}
+#same{
+	height: 300px;
+	width: 300px;
+	border: 5px double red;
+}
+#diff{
+	border-top: 5px double red;
+	border-bottom: 5px double red;
+	margin-left: 300px;
+}
+img{
+height: 250px;
+width: 250px;
+}
+#small{
+	display: flex;
+	flex-direction: column;
+	background-color: black;
+}
+a{
+	text-decoration: none;
+	text-align: center;
+	background-color: transparent;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+#trail{
+	color: white;
+}
+#trail:hover{
+	color: lightgreen;
+	background-color: darkblue;
+}
+#trail:active{
+	color: turquoise;
+	background-color: gold;
+}
+/*End Of Piyush CSS*/
 </style>
 </head>
 <body>
-			<!-------------------------------------------------------->
-			<!----Hollywod code will come here coder is jayvant------->
-			<!-------------------------------------------------------->
-
-			<!-------------------------------------------------------->
-			<!----End of Hollywod code coder is jayvant------->
-			<!-------------------------------------------------------->
-
-			<!-------------------------------------------------------->
-			<!----bollywod code will come here coder is navya------->
-			<!-------------------------------------------------------->
-	
-			<!-------------------------------------------------------->
-			<!----End of Hollywod code coder is navya------->
-			<!-------------------------------------------------------->
-
-			<!-------------------------------------------------------->
-			<!----tollywod and sandalwood code will come here coder is piyush------->
-			<!-------------------------------------------------------->
-
-			<!-------------------------------------------------------->
-			<!----End of tollywood and sandalwood code coder is piyush------->
-			<!-------------------------------------------------------->
+<!--For the images that I got from google, I copied their image adress.-->
+<!--For the Details I got from google, but for Srimanthadu I got from wikipieda because something went wrong with the cast and Mahesh Babu didn't appear.-->
+<!--I got the Watch now from Einthusan because RRR and James didn't come on prime video, and so I changed everything this morning to einthusan.-->
+<!--I also made sure the images I got were sqaures so Each Image would have the same height and width and none of them would look awkard.-->
+<!--I also made sure each image is 250px by 250px, but even so the sandalwood div is not the same width as the tollywood div on the kgf 1 side which is intresting.-->
+<div style="text-align: center;">
+			<div class="tollywood">
+				<div id="small" class="RRR">
+				<h1>RRR</h1>
+					<img src="https://static.toiimg.com/photo/msid-90295739/90295739.jpg">
+					<a id="trail" target="_blank" href="https://www.youtube.com/watch?v=NgBoMJy386M">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/6jRm/?lang=tamil#" target="_blank">Watch Now</a>
+					<a id="trail" href="https://www.google.com/search?q=rrr&rlz=1C5CHFA_enUS707US710&biw=1280&bih=567&sxsrf=ALiCzsbefL9M7Amc6HS6ROHpyObf0k5iaQ%3A1658856408279&ei=2CPgYs7HEN3UkPIPv4OFkAU&gs_ssp=eJzj4tVP1zc0zDBKNzJIs8gzYPRiLioqAgA4TgWC&oq=r&gs_lcp=Cgdnd3Mtd2l6EAEYAzIECCMQJzIECCMQJzIECCMQJzIECC4QQzIHCC4Q1AIQQzIECC4QQzIECAAQQzIECC4QQzIECAAQQzIHCC4Q1AIQQzoECAAQRzoKCC4QsQMQgwEQQzoKCAAQsQMQgwEQQzoHCCMQ6gIQJzoHCC4Q6gIQJzoNCC4QxwEQ0QMQ6gIQJ0oECEEYAEoECEYYAFC9A1ilDGCSFWgBcAJ4AYAB8wWIAYMIkgEHMC4yLjYtMZgBAKABAbABCsgBCMABAQ&sclient=gws-wiz" target="_blank">Details</a>
+				</div>
+				<div id="small" class="Pushpa">
+				<h1>Pushpa</h1>
+					<img src="https://assets-in.bmscdn.com/content-buzz/2022/01/pushpa-square.jpg">
+					<a id="trail" target="_blank" href="https://www.youtube.com/watch?v=pKctjlxbFDQ">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/1uhL/?lang=telugu" target="_blank">Watch Now</a>
+					<a id="trail" href="https://www.google.com/search?q=pushpa&rlz=1C5CHFA_enUS707US710&biw=1280&bih=567&sxsrf=ALiCzsYefPwQgiOToB89vWE_nkdsZlxaOA%3A1658856443063&ei=-yPgYv65A86gkPIP8ZG6kA8&ved=0ahUKEwi-o5boiZf5AhVOEEQIHfGIDvIQ4dUDCA8&uact=5&oq=pushpa&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBAgjECcyBAgjECcyDQguELEDEIMBENQCEEMyBAgAEEMyBAgAEEMyBAgAEEMyCgguELEDEIMBEEMyBwgAELEDEEMyBwgAELEDEEM6BwgjEOoCECc6BwguEOoCECc6DQguEMcBENEDEOoCECc6BAguECc6BwguENQCEEM6CAguELEDEIMBOgQILhBDOgsILhCABBDHARDRAzoFCC4QgAQ6CwgAEIAEELEDEIMBOg0ILhCABBCHAhCxAxAUSgQIQRgASgQIRhgAUABYiQpgpQtoAXABeACAAdQBiAG1BpIBBTAuNS4xmAEAoAEBsAEKwAEB&sclient=gws-wiz" target="_blank">Details</a>
+				</div>
+				<div id="small" class="Srimanthadu">
+				<h1>Srimanthadu</h1>
+					<img src="https://www.telugu360.com/wp-content/uploads/2015/08/Srimanthudu.jpg">
+					<a id="trail" target="_blank" href="https://www.youtube.com/watch?v=dlvgG-hZ9xc">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/2925/?lang=telugu" target="_blank">Watch Now</a>
+					<a id="trail" href="https://en.wikipedia.org/wiki/Srimanthudu" target="_blank">Details</a>
+				</div>
+				<div id="small" class="Sarileru Neekevvaru">
+				<h1>SarileruNeekevvaru</h1>
+					<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5WbzPEekufNEMbUhLz3HJfMj3XL9QV2eORw&usqp=CAU">
+					<a id="trail" target="_blank" href="https://www.youtube.com/watch?v=Pim3CUGCXbY">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/3Ad4/?lang=telugu" target="_blank">Watch Now</a>
+					<a id="trail" href="https://www.google.com/search?q=Sarileru+Neekevvaru&rlz=1C5CHFA_enUS707US710&oq=Sarileru+Neekevvaru&aqs=chrome.0.69i59j46i67i433j0i67i131i433j0i67l2j69i60j69i61l2.734j0j7&sourceid=chrome&ie=UTF-8" target="_blank">Details</a>
+				</div>
+			</div>
+			<div class="sandalwood">
+				<div id="small" class="kgf1">
+				<h1>Kgf 1</h1>
+					<img src="https://www.pinkvilla.com/imageresize/kgfc1_main.jpg?width=752&format=webp&t=pvorg">
+					<a id="trail" target="_blank" href="https://www.youtube.com/watch?v=-KfsY-qwBS0">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/1Yrk/?lang=kannada" target="_blank">Watch Now</a>
+					<a id="trail" href="https://www.google.com/search?q=kgf+1&rlz=1C5CHFA_enUS707US710&biw=1280&bih=567&sxsrf=ALiCzsaZfrbVXRACeVJ8Eea6BpYgz0ekDg%3A1658856807910&ei=ZyXgYqGPN_DAkPIP_dyGkAg&gs_ssp=eJzj4tbP1TcwNKqyMLcwNGD0Ys1OT1MwBAAztATP&oq=kg&gs_lcp=Cgdnd3Mtd2l6EAEYAzIECCMQJzIECCMQJzIECCMQJzIECC4QQzIHCC4QsQMQQzIECAAQQzIECC4QQzIECAAQQzIECAAQQzIECAAQQzoHCCMQsAMQJzoHCAAQRxCwAzoHCAAQsAMQQzoKCAAQ5AIQsAMYAToMCC4QyAMQsAMQQxgCOgcIABCxAxBDOgcIIxDqAhAnOg0ILhDHARDRAxDqAhAnOgcILhDqAhAnOgcILhDUAhBDOhEILhCABBCxAxCDARDHARDRAzoLCAAQgAQQsQMQgwE6CAgAELEDEIMBOgUIABCABEoECEEYAEoECEYYAVDHBFjTJWC8LWgHcAF4AIABf4gB5wOSAQMzLjKYAQCgAQGwAQrIARPAAQHaAQYIARABGAnaAQYIAhABGAg&sclient=gws-wiz" target="_blank">Details</a>
+				</div>
+				<div id="small" class="kgf2">
+				<h1>Kgf 2</h1>
+					<img src="https://indiaglitz-media.s3.amazonaws.com/telugu/home/kgf-2-review-140422-2.jpg">
+					<a id="trail" target="_blank" href="https://www.youtube.com/watch?v=JKa05nyUmuQ">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/64cX/?lang=kannada" target="_blank">Watch Now</a>
+					<a id="trail" href="https://www.google.com/search?q=kgf+2&rlz=1C5CHFA_enUS707US710&sxsrf=ALiCzsagGbLfmH2ZYBqC_Jd6b1VRuXsoWg%3A1658856222587&ei=HiPgYtWrI7bOkPIP1Oa3qAk&ved=0ahUKEwjVsoX_iJf5AhU2J0QIHVTzDZUQ4dUDCA8&uact=5&oq=kgf+2&gs_lcp=Cgdnd3Mtd2l6EAMyBAgjECcyBwguELEDEEMyBAgAEEMyBwgAELEDEEMyBwgAELEDEEMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEMyBAgAEEM6BwgjEOoCECc6DQguEMcBENEDEOoCECc6BAguEENKBAhBGABKBAhGGABQAFiRDWCTD2gBcAF4AIABcIgBzwOSAQM0LjGYAQCgAQGwAQrAAQE&sclient=gws-wiz" target="_blank">Details</a>
+				</div>
+				<div id="small" class="james">
+				<h1>James</h1>
+					<img src="https://www.pinkvilla.com/imageresize/puneeth_rajkumar_james_movie_main.jpg?width=752&format=webp&t=pvorg">
+					<a id="trail" href="https://www.youtube.com/watch?v=kYUD2fYV3ho" target="_blank">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/19B7/?lang=kannada" target="_blank">Watch Now</a>
+					<a id="trail" href="https://www.google.com/search?q=james+movie&rlz=1C5CHFA_enUS707US710&biw=1280&bih=567&sxsrf=ALiCzsa_0ve3GjPTror7fblRg3cM6GNX1Q%3A1658856865742&ei=oSXgYqj6LOeZkPIP39S-4AU&gs_ssp=eJzj4tVP1zc0TEmpyCkxL4w3YPTizkrMTS1WyM0vy0wFAH-GCTw&oq=ja&gs_lcp=Cgdnd3Mtd2l6EAEYAzIECCMQJzIECCMQJzIECCMQJzIECC4QQzIHCC4Q1AIQQzIECAAQQzIECAAQQzIECC4QQzIHCC4Q1AIQQzIQCAAQgAQQhwIQsQMQgwEQFDoHCCMQ6gIQJzoHCC4Q6gIQJzoNCC4QxwEQ0QMQ6gIQJzoICC4QgAQQsQNKBAhBGABKBAhGGABQAFimB2CfFGgBcAF4AIABgwGIAc8BkgEDMS4xmAEAoAEBsAEKwAEB&sclient=gws-wiz" target="_blank">Details</a>
+			</div>
+			<div id="small" class="Yuvarathnaa">
+			<h1>Yuvarathnaa</h1>
+					<img src="https://upload.wikimedia.org/wikipedia/en/thumb/4/4e/Yuvarathnaa_album.jpg/220px-Yuvarathnaa_album.jpg">
+					<a id="trail" href="https://www.youtube.com/watch?v=a1L1EviALUg" target="_blank">Trailer</a>
+					<a id="trail" href="https://einthusan.tv/movie/watch/3q6a/?lang=kannada" target="_blank">Watch Now</a>
+					<a id="trail" href="https://www.google.com/search?q=yuvarathnaa&rlz=1C5CHFA_enUS707US710&biw=1280&bih=567&sxsrf=ALiCzsbIZ18czO6q27aLh3cqOt7BOMgn2g%3A1658856317175&ei=fSPgYuqYCuWekPIPpNOo8AY&gs_ssp=eJzj4tVP1zc0zDBLLorPNbA0YPTiriwtSyxKLMnIS0wEAHkxCRE&oq=Yuva&gs_lcp=Cgdnd3Mtd2l6EAEYATIECCMQJzIGCC4QChBDMgQILhBDMgQIABBDMgQILhBDMgQIABBDMgoILhCxAxCDARBDMgoILhCxAxCDARBDMgsIABCABBCxAxCDATIECAAQQzoHCCMQ6gIQJzoNCC4QxwEQ0QMQ6gIQJzoKCC4QxwEQ0QMQJzoHCC4Q1AIQQzoRCC4QgAQQsQMQgwEQxwEQ0QM6EQguEIAEELEDEIMBEMcBEK8BOgcILhCxAxBDOgsILhCABBCxAxCDAUoECEEYAEoECEYYAFAAWNkPYL0eaAFwAXgAgAF4iAGsA5IBAzEuM5gBAKABAbABCsABAQ&sclient=gws-wiz" target="_blank">Details</a>
+			</div>
+			</div>
+			</div>
 </body>
 </html>
